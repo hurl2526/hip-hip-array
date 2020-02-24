@@ -3,7 +3,7 @@
 // Write a Challenge Banner printing function THAT'S A LITTLE DIFFERENT THAN BEFORE. This one will print out not only "Challenge n", where n is the number passed into it, but will also print n "#" characters to the left and n "#" to the right of the "Challenge n" text. You should also include a space between the "#" characters and the text.
 
 function challengeBanner(num){
-  let banner = ''
+  let banner = '';
   for (let i = 1; i <=num; i++){
     banner = banner + '#';
   }
@@ -69,7 +69,6 @@ challengeBanner(5);
 // Remove two values from the beginning and one value from the end of the following array, and then console.log out each value individually.
 const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
 symmetricalCapitals.pop();
-symmetricalCapitals.pop();
 symmetricalCapitals.shift();
 symmetricalCapitals.shift();
 for (let i = 0; i < symmetricalCapitals.length; i++){
@@ -81,7 +80,7 @@ challengeBanner(6);
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end, and then console.log out each value individually.
 const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 fibonacciNumbers.push(8);
-fibonacciNumbers.unshift(8);
+fibonacciNumbers.push(8);
 fibonacciNumbers.unshift(8);
 for (let i = 0; i < fibonacciNumbers.length; i++){
   console.log(fibonacciNumbers[i]);
